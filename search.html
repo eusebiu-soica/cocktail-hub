@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- meta tag -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link tag -->
+    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Cocktail Finder</title>
+  </head>
+  <body>
+    <h2>Cocktail Finder</h2>
+    <p>Select your favorite cocktail and let's have a shot</p>
+    <div class="search-box">
+      <input
+        type="search"
+        name="search"
+        id="searchInput"
+        class="searchInput"
+        placeholder="Search cocktail here"
+      />
+      <button id="searchButton" class="searchButton" onclick="searchCocktail()">
+        <img src="img/search.png" alt="Search icon" class="searchIcon" />
+      </button>
+    </div>
+   
+    <img
+      src="img/cocktail.png"
+      draggable="false"
+      alt="Cocktail bener"
+      class="cocktail-bener bener2"
+      id='bener'
+    />
+    <div class="cocktail-list">
+        <!-- list of cocktails received from search -->
+    </div>
+
+    <div class="cocktail-details">
+      <img src="" id="cocktailImage" class="cocktailImage" />
+      <div class="recipe">
+          <h4>Recipe</4>
+          <p id="recipeText"></p>
+      </div>
+      <div class="ingredients">
+        <h4>Ingredients</h4>
+        <div class="ingredientsList">
+            <!-- list of all ingredients by cocktail name -->
+        </div>
+      </div>
+      
+    </div>
+  
+    <script src="js/app.js"></script>
+  </body>
+</html>

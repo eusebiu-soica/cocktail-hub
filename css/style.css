@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #0c091b;
+  text-align: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+/* ---------------------------------------------------- INDEX ----------- */
+
+h2 {
+  color: #3bba9c;
+  position: relative;
+  top: 15%;
+}
+
+.cocktail-bener {
+  position: relative;
+  top: 40%;
+}
+
+nav {
+  padding: 12px;
+  position: relative;
+  top: 30%;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 12px;
+  margin: 1%;
+  color: #707793;
+  border: 1px solid #3bba9c;
+  border-radius: 10px;
+}
+
+nav a:hover {
+  border-radius: 15px;
+}
+
+/* ---------------------------------------------------- SEARCH ----------- */
+
+h2 {
+  color: #3bba9c;
+  position: relative;
+  top: 15%;
+}
+
+p {
+  color: #3bba9c;
+  position: relative;
+  top: 17%;
+  opacity: 60%;
+}
+
+.search-box {
+  position: relative;
+  left: 35%;
+  width: 30%;
+  top: 27%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.searchInput {
+  color: #707793;
+  border: 1px solid #3bba9c;
+  background-color: transparent;
+  height: 40px;
+  width: 80%;
+  border-radius: 10px;
+  padding-left: 5%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.searchButton {
+  width: 60px;
+  height: 40px;
+  border: 1px solid #3bba9c;
+  background: transparent;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.searchButton:hover {
+  cursor: pointer;
+}
+
+.searchButton .searchIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.bener2 {
+  display: block;
+  left: 21%;
+}
+
+.cocktail-list {
+  padding: 1%;
+  position: relative;
+  top: 33%;
+  left: 17.5%;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cocktail-list span {
+  background-color: #191822;
+  color: #707793;
+  padding: 1%;
+  border-radius: 10px;
+  margin: 0.5%;
+}
+
+.cocktail-list span:hover {
+  cursor: pointer;
+  background-color: #16151d;
+}
+
+.cocktail-details {
+  position: relative;
+  top: 40%;
+  width: 60%;
+  left: 20%;
+  display: none;
+  padding-bottom: 40px;
+}
+
+.cocktail-details .cocktailImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.cocktail-details .recipe {
+  width: 30%;
+  margin-left: 4%;
+}
+
+.cocktail-details .recipe h4,
+.cocktail-details .ingredients h4 {
+  color: #707070;
+}
+
+.cocktail-details .recipe p {
+  color: #707793;
+  font-weight: 400;
+  position: relative;
+  top: 15px;
+}
+
+.cocktail-details .ingredients {
+  position: relative;
+  width: 40%;
+  left: 4%;
+  text-align: center;
+}
+
+.cocktail-details .ingredients .ingredientsList {
+  position: relative;
+  top: 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cocktail-details .ingredients .ingredientsList span {
+  background-color: #191822;
+  color: #707793;
+  border: 1px solid #707793;
+  border-radius: 10px;
+  padding: 1%;
+  margin: 1.5%;
+  font-size: 12px;
+}
+
+/* ---------------------------------------------------- INGREDIENTS ----------- */
+
+.allIngredient {
+  padding: 5px;
+  position: relative;
+  top: 25%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.allIngredient span {
+  background-color: #191822;
+  color: #707793;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 0.3%;
+}
+
+.allIngredient span:hover {
+  cursor: pointer;
+  background-color: #16151d;
+}
+
+.searchIngredientButton {
+  position: relative;
+  top: 30%;
+  border: 1px solid #3bba9c;
+  color: #707793;
+  font-size: 18px;
+  background: transparent;
+  border-radius: 10px;
+  padding: 1%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.searchIngredientButton:hover {
+  border-radius: 20px;
+}
+
+.myCocktails {
+  padding: 1%;
+  position: relative;
+  top: 33%;
+  left: 17.5%;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.myCocktails span {
+  background-color: #191822;
+  color: #707793;
+  padding: 1%;
+  border-radius: 10px;
+  margin: 0.5%;
+}
